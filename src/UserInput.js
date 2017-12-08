@@ -16,7 +16,6 @@ class UserInput extends React.Component {
 
     for (let i = 0; i < this.id.value; i++) {
       if (l < 7) {
-        //console.log(p);
         cell = row.insertCell(p);
         cell.innerHTML = ++k;
         ctr++;
