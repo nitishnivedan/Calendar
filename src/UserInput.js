@@ -23,7 +23,6 @@ class UserInput extends React.Component {
       } else {
         l = 0;
         p = 0;
-        //console.log(z);
         row = table.insertRow(z + 1);
         cell = row.insertCell(p);
         cell.innerHTML = ++k;
